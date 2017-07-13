@@ -21,6 +21,11 @@ namespace Inheretence_and_Polymorphyism
             this.waterDrag = waterDrag;
         }
 
+        public Boat()
+        {
+            //default
+        }
+
         //Override allows you to take a method from a parent class and make it unique to this class.
         // In this example, we are changing movement, to include water drag, because that is a unique movement calculation to boats.
         public override void Move()
