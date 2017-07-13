@@ -10,6 +10,9 @@ namespace Inheretence_and_Polymorphyism
     {
         static void Main(string[] args)
         {
+
+
+
         }
     }
 }
